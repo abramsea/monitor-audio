@@ -1,0 +1,21 @@
+.about {
+    padding: 100px 0;
+    background: #f9f9f9;
+    display: none;
+}
+
+#prime, #about {
+    display: block;
+}
+
+@media screen and (max-width: 1279px) {
+   .about {
+       padding: 52px 0;
+   } 
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        padding: 40px 0;
+    }
+}

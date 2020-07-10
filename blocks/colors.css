@@ -1,0 +1,40 @@
+.colors {
+    margin: 1em 0 0 0;
+}
+
+.colors__title {
+    color: #343741;
+    font-size: 16px;
+}
+
+.colors-item {
+    width: 56px;
+    height: 34px;
+    display: inline-block;
+    margin: 8px 12px 0 0;
+    border: 1px solid #000;
+}
+
+.colors-item_black {
+    background: #000;
+}
+
+.colors-item_grey {
+    background: #3f3f3f;
+}
+
+.colors-item_oak {
+    background: #343741;
+}
+
+.colors-item_white {
+    background: #fff;
+}
+
+@media screen and (max-width: 767px) { 
+    .colors-item {
+        width: 36px;
+        height: 22px;
+        margin: 8px 8px 0 0;
+    }
+}

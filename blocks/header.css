@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+    padding: 22px;
+    position: relative;
+    z-index: 1000;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        background: #000;
+        padding: 12px;
+    }
+
+    .header__logo {
+        width: 64px;
+    }
+}
