@@ -7,7 +7,7 @@
 .body {
     font-family: 'GraphikLCG', Arial, Helvetica, sans-serif;
     line-height: 1.2;
-    color: #090909;
+    color: #1c2439;
     min-width: 360px;
 }
 
@@ -24,9 +24,9 @@
 }
 
 .title {
-    font-size: 50px;
+    font-size: 46px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0 0 1em 0;
 }
 
@@ -46,7 +46,15 @@
 }
 
 
+.chevron {
+    width: 12px;
+    margin: 0 0 0 8px;
+    display: inline-block;
+}
 
+.video-section {
+    padding: 100px 0;
+}
 
 
 @media screen and (max-width: 1279px) {
