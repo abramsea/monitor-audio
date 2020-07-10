@@ -1,4 +1,3 @@
-
 let tooltipElem;
 
 document.onmouseover = function(event) {
